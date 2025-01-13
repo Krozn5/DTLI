@@ -1,0 +1,18 @@
+Min 0.0 Max 1000000.0
+Encoder configs	{'shifts': 1000000, 'keep_res': True}
+Decoder configs	{}
+Number of training keys 20085
+Number of training keys 20085
+Number of training keys 20085
+Parameters=10, n_dims=2
+Partition(feature_dim=2, shifts=1000000, keep_res=True)
+BNAFSequential(
+  (0): BNAF(res=False)(
+    (0): MaskedWeight(in_features=2, out_features=2, dim=2, bias=False)
+    (1): BNAFTanh()
+    (2): MaskedWeight(in_features=2, out_features=2, dim=2, bias=False)
+  )
+)
+SumDecoder()
+
+Time Cost of Training 2.382115364074707

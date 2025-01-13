@@ -1,0 +1,38 @@
+Min 0.0 Max 1000000.0
+Encoder configs	{'shifts': 1000000, 'keep_res': True}
+Decoder configs	{}
+Number of training keys 20085
+Number of training keys 20085
+Number of training keys 20085
+Parameters=10, n_dims=2
+Partition(feature_dim=2, shifts=1000000, keep_res=True)
+BNAFSequential(
+  (0): BNAF(res=False)(
+    (0): MaskedWeight(in_features=2, out_features=2, dim=2, bias=False)
+    (1): BNAFTanh()
+    (2): MaskedWeight(in_features=2, out_features=2, dim=2, bias=False)
+  )
+)
+SumDecoder()
+
+Time Cost of Training 2.323493003845215
+Time Cost of Training 0.5178594589233398
+Time Cost of Training 0.08487105369567871
+####################################################################################################
+Assess the 200859 of keys
+Number of unordered keys 0
+Number of duplicated keys 0
+Range [0.0, 2.687368722622527]
+Slope 537831.8341813062, intercept 0.5
+Space amplification 7.195853807895091
+Absolute Conflicts
+Total conflicts 16365, max conflict 3, 99% conflict 2, average conflict 1.0643210197710717
+Slope 537831.8341813062, intercept 0.5
+Space amplification 1.499992532074739
+Limited Space Conflicts
+Total conflicts 181657, max conflict 180870, 99% conflict 2, average conflict 237.46013071895425
+Slope 74741.88350454098, intercept 0.5
+Space amplification 1.0
+Proportional Building
+Total conflicts 83814, max conflict 8, 99% conflict 4, average conflict 1.5575915257387103
+####################################################################################################

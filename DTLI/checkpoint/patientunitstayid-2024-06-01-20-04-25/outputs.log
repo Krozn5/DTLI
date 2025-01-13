@@ -1,0 +1,6 @@
+Min 0.0 Max 1000000.0
+Encoder configs	{'shifts': 1000000, 'keep_res': True}
+Decoder configs	{}
+Number of training keys 20085
+Number of training keys 20085
+Number of training keys 20085
